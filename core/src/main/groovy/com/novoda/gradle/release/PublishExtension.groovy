@@ -41,4 +41,7 @@ class PublishExtension {
 
     String[] publications
 
+    String currentFlavor() {
+        return FlavorPlugin.CURRENT_FLAVOR
+    }
 }

@@ -34,10 +34,10 @@ compileGroovy {
 }
 
 publish {
-    userOrg = 'novoda'
-    groupId = 'com.novoda'
+    userOrg = 'qunhe'
+    groupId = 'com.qunhe.android'
     artifactId = rootProject.name
     version = project.version
     description = 'Super duper easy way to release your Android and other artifacts to bintray'
-    website = "https://github.com/novoda/${rootProject.name}"
+    website = "https://github.com/exacloud/${rootProject.name}"
 }
